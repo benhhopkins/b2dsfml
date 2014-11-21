@@ -1,0 +1,405 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:13 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/2.8.12.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:13 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3646794427.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:13 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec3646794427.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3646794427.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3646794427.dir\Debug\cmTryCom.4F6278A9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3646794427.dir\Debug\cmTryCom.4F6278A9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3646794427.dir\Debug\\" /Fd"cmTryCompileExec3646794427.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3646794427.dir\Debug\\" /Fd"cmTryCompileExec3646794427.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3646794427.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3646794427.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3646794427.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3646794427.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3646794427.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3646794427.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3646794427.dir\Debug\cmTryCom.4F6278A9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3646794427.dir\Debug\cmTryCom.4F6278A9.tlog\cmTryCompileExec3646794427.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec3646794427.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2349491313.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:14 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2349491313.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2349491313.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2349491313.dir\Debug\cmTryCom.1B7C19A6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2349491313.dir\Debug\cmTryCom.1B7C19A6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2349491313.dir\Debug\\" /Fd"cmTryCompileExec2349491313.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2349491313.dir\Debug\\" /Fd"cmTryCompileExec2349491313.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2349491313.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2349491313.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2349491313.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2349491313.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec2349491313.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2349491313.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2349491313.dir\Debug\cmTryCom.1B7C19A6.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2349491313.dir\Debug\cmTryCom.1B7C19A6.tlog\cmTryCompileExec2349491313.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2349491313.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.39
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3216976007.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:15 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec3216976007.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3216976007.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3216976007.dir\Debug\cmTryCom.1BF28D66.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3216976007.dir\Debug\cmTryCom.1BF28D66.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3216976007.dir\Debug\\" /Fd"cmTryCompileExec3216976007.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3216976007.dir\Debug\\" /Fd"cmTryCompileExec3216976007.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3216976007.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3216976007.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3216976007.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3216976007.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3216976007.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3216976007.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3216976007.dir\Debug\cmTryCom.1BF28D66.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3216976007.dir\Debug\cmTryCom.1BF28D66.tlog\cmTryCompileExec3216976007.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec3216976007.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.40
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec454752625.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:15 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec454752625.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec454752625.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec454752625.dir\Debug\cmTryCom.E96812EA.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec454752625.dir\Debug\cmTryCom.E96812EA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec454752625.dir\Debug\\" /Fd"cmTryCompileExec454752625.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec454752625.dir\Debug\\" /Fd"cmTryCompileExec454752625.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec454752625.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec454752625.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec454752625.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec454752625.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec454752625.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec454752625.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec454752625.dir\Debug\cmTryCom.E96812EA.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec454752625.dir\Debug\cmTryCom.E96812EA.tlog\cmTryCompileExec454752625.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec454752625.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4040133712.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:16 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec4040133712.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4040133712.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4040133712.dir\Debug\cmTryCom.C8911EB2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4040133712.dir\Debug\cmTryCom.C8911EB2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4040133712.dir\Debug\\" /Fd"cmTryCompileExec4040133712.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4040133712.dir\Debug\\" /Fd"cmTryCompileExec4040133712.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4040133712.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4040133712.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4040133712.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4040133712.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec4040133712.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4040133712.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4040133712.dir\Debug\cmTryCom.C8911EB2.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4040133712.dir\Debug\cmTryCom.C8911EB2.tlog\cmTryCompileExec4040133712.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec4040133712.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2456711256.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:16 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2456711256.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2456711256.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2456711256.dir\Debug\cmTryCom.FE697EA6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2456711256.dir\Debug\cmTryCom.FE697EA6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2456711256.dir\Debug\\" /Fd"cmTryCompileExec2456711256.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2456711256.dir\Debug\\" /Fd"cmTryCompileExec2456711256.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2456711256.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2456711256.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2456711256.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2456711256.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2456711256.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2456711256.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2456711256.dir\Debug\cmTryCom.FE697EA6.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2456711256.dir\Debug\cmTryCom.FE697EA6.tlog\cmTryCompileExec2456711256.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2456711256.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.39
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec736455416.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:17 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec736455416.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec736455416.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec736455416.dir\Debug\cmTryCom.4258623C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec736455416.dir\Debug\cmTryCom.4258623C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec736455416.dir\Debug\\" /Fd"cmTryCompileExec736455416.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec736455416.dir\Debug\\" /Fd"cmTryCompileExec736455416.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec736455416.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec736455416.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec736455416.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec736455416.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec736455416.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec736455416.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec736455416.dir\Debug\cmTryCom.4258623C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec736455416.dir\Debug\cmTryCom.4258623C.tlog\cmTryCompileExec736455416.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec736455416.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.36
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2256065877.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/29/2014 5:07:17 PM.
+Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2256065877.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2256065877.dir\Debug\".
+  Creating directory "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2256065877.dir\Debug\cmTryCom.CE87F670.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2256065877.dir\Debug\cmTryCom.CE87F670.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2256065877.dir\Debug\\" /Fd"cmTryCompileExec2256065877.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2256065877.dir\Debug\\" /Fd"cmTryCompileExec2256065877.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c
+  SIZEOF_VOID_PTR.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2256065877.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2256065877.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2256065877.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2256065877.dir\Debug\SIZEOF_VOID_PTR.obj
+  cmTryCompileExec2256065877.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2256065877.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2256065877.dir\Debug\cmTryCom.CE87F670.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2256065877.dir\Debug\cmTryCom.CE87F670.tlog\cmTryCompileExec2256065877.lastbuildstate".
+Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\CMakeTmp\cmTryCompileExec2256065877.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.37
+
+

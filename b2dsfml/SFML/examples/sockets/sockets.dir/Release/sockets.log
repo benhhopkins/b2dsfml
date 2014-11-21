@@ -1,0 +1,12 @@
+﻿Build started 10/30/2014 1:00:06 PM.
+     1>Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\sockets\sockets.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\sockets\Release\sockets.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\lib\Release\sfml-network-s.lib" "..\..\lib\Release\sfml-system-s.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/sockets/Release/sockets.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/sockets/Release/sockets.lib" /MACHINE:X86 /SAFESEH  /machine:X86 sockets.dir\Release\Sockets.obj
+         sockets.dir\Release\TCP.obj
+         sockets.dir\Release\UDP.obj
+         sockets.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\sockets\Release\sockets.exe
+     1>Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\sockets\sockets.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29

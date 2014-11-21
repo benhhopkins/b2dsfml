@@ -1,0 +1,21 @@
+﻿Build started 11/14/2014 1:10:09 PM.
+     1>Project "C:\Users\Ben\Documents\GitHub\b2dsfml\SFML\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake is re-running because C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/generate.stamp dependency file is missing.
+         CMake Error at cmake/Config.cmake:13 (message):
+           Unsupported architecture
+         Call Stack (most recent call first):
+           CMakeLists.txt:20 (include)
+         
+         
+         -- Configuring incomplete, errors occurred!
+         See also "C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeOutput.log".
+         See also "C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/CMakeError.log".
+         CMake Configure step failed.  Build files cannot be regenerated correctly.  Attempting to stop IDE build.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "C:\Users\Ben\Documents\GitHub\b2dsfml\SFML\ZERO_CHECK.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.16

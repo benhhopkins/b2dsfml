@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt" />
+    <CustomBuild Include="CMakeFiles\01350d8798ea4b016f043aa05497087c\ALL_BUILD.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{955E6142-384E-411A-811D-B41C60733A6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

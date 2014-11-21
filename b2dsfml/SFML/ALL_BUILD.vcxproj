@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7579902A-6544-4E00-953E-6080832F3F39}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/Ben/Documents/GitHub/SFML-2.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/Ben/Documents/GitHub/SFML-2.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/Ben/Documents/GitHub/SFML-2.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/Ben/Documents/GitHub/SFML-2.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/Ben/Documents/GitHub/SFML-2.1 -BC:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML --check-stamp-file C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\cmake\Config.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/Ben/Documents/GitHub/SFML-2.1 -BC:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML --check-stamp-file C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\cmake\Config.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/Ben/Documents/GitHub/SFML-2.1 -BC:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML --check-stamp-file C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\cmake\Config.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/Ben/Documents/GitHub/SFML-2.1 -BC:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML --check-stamp-file C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Ben/Documents/GitHub/SFML-2.1/CMakeLists.txt;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\cmake\Config.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\Ben\Documents\GitHub\SFML-2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\01350d8798ea4b016f043aa05497087c\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/01350d8798ea4b016f043aa05497087c/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/01350d8798ea4b016f043aa05497087c/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/01350d8798ea4b016f043aa05497087c/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/CMakeFiles/01350d8798ea4b016f043aa05497087c/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/ZERO_CHECK.vcxproj">
+      <Project>DE398DA2-6D3F-4D29-B28D-CE70ADD50090</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/ftp/ftp.vcxproj">
+      <Project>5FE0D92C-709D-46C8-ABAF-617C6D6AF2C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/opengl/opengl.vcxproj">
+      <Project>302C567A-E8C7-42D6-AE2D-E9FB1FF289E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/pong/pong.vcxproj">
+      <Project>CC148689-CA98-445C-A90D-B4C1DB0A6366</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/Audio/sfml-audio.vcxproj">
+      <Project>4BC9233D-0709-40F5-B85F-16DAE2DA11CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/Graphics/sfml-graphics.vcxproj">
+      <Project>8CF98E1E-35E9-4994-9AA3-9EA131CFFE90</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/Main/sfml-main.vcxproj">
+      <Project>8C14CC5E-BAED-4F72-A555-39ED21365877</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/Network/sfml-network.vcxproj">
+      <Project>6C00311B-B217-4CBF-B548-34AC5A6855C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/System/sfml-system.vcxproj">
+      <Project>E1DAD9CA-951C-4A31-AF6C-57D4A0CD3465</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/src/SFML/Window/sfml-window.vcxproj">
+      <Project>6F24C756-A2F6-44FA-9A1A-1F0CB64DEF37</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/shader/shader.vcxproj">
+      <Project>F692C189-4CD0-413C-9DBF-FE43CDBA13AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/sockets/sockets.vcxproj">
+      <Project>B7D5B926-D29E-4332-B356-17FBDA6E4E97</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/sound/sound.vcxproj">
+      <Project>2D45BAB3-63FF-4BAD-B39C-C49D9F7D43A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/sound_capture/sound-capture.vcxproj">
+      <Project>A1FE382C-1360-4FBB-81B3-D98439BC9C49</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/voip/voip.vcxproj">
+      <Project>6D1E2E7B-4E02-488F-9412-05EBA421305D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/win32/win32.vcxproj">
+      <Project>0E5EF607-754F-4916-8A56-DC140272B04C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/window/window.vcxproj">
+      <Project>7EC5A778-8B3F-4147-8AB2-C0EFB5D0A844</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

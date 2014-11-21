@@ -1,0 +1,10 @@
+﻿Build started 10/30/2014 1:00:07 PM.
+     1>Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\win32\win32.vcxproj" on node 4 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\win32\Release\win32.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\lib\Release\sfml-main.lib" "..\..\lib\Release\sfml-graphics-s.lib" "..\..\lib\Release\sfml-window-s.lib" "..\..\lib\Release\sfml-system-s.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/win32/Release/win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ben/Documents/GitHub/bhsfml/bhsfml/bhsfml/SFML/examples/win32/Release/win32.lib" /MACHINE:X86 /SAFESEH  /machine:X86 win32.dir\Release\Win32.obj
+         win32.vcxproj -> C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\win32\Release\win32.exe
+     1>Done Building Project "C:\Users\Ben\Documents\GitHub\bhsfml\bhsfml\bhsfml\SFML\examples\win32\win32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18
